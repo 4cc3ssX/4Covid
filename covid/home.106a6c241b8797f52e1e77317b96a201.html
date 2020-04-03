@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Covid-19 Cases & Deaths</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<th></th>
+			<th class="disease-new">New</th>
+			<th class="disease-active">Active</th>
+			<th class="disease-critical">Critical</th>
+			<th class="disease-recovered">Recovered</th>
+			<th class="total">Total</th>
+		</tr>
+		<tr>
+			<td class="cases">Cases</td>
+			<td>{cases_new}</td>
+			<td>{cases_active}</td>
+			<td>{cases_critical}</td>
+			<td>{cases_recovered}</td>
+			<td>{cases_total}</td>
+		</tr>
+		<tr>
+			<td class="deaths">Deaths</td>
+			<td>{deaths_new}</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>{deaths_total}</td>
+		</tr>
+	</table>
+	<footer> &copy; {year} </footer>
+</body>
+</html>
